@@ -1,0 +1,10 @@
+<hibernate-mapping>
+    <class name="com.afroz.bus.station.Passanger" table="Passanger">
+        <id name="pid" column="pid"/>
+        <property name="name" column="name"/>
+        <property name="location" column="loc"/>
+        <property name="destination" column="des"/>
+        <property name="departure" column="dep"/>
+        <property name="arrival" column="arr"/>
+    </class>
+</hibernate-mapping>

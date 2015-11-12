@@ -1,0 +1,7 @@
+<hibernate-mapping>
+    <class name="com.afroz.pojo.Employee" table="Employee1">
+        <id name="empno" column="empno"/>
+        <property name="empname" column="empname"/>
+        <property name="empjob" column="empjob"/>
+    </class>
+</hibernate-mapping>

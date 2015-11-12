@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Hib_App1"/>
+	<classpathentry kind="src" path="Hib_App2"/>
+	<classpathentry kind="src" path="Hib_App3"/>
+	<classpathentry kind="src" path="Hib_App4"/>
+	<classpathentry kind="src" path="Hib_App5"/>
+	<classpathentry kind="src" path="Hib_App6"/>
+	<classpathentry kind="src" path="Hib_App7"/>
+	<classpathentry kind="src" path="Hib_App8"/>
+	<classpathentry kind="src" path="Hib_App9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate_lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

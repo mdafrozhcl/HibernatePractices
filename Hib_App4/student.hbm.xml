@@ -1,0 +1,7 @@
+<hibernate-mapping>
+    <class name="com.afroz.student.Student" table="Student1">
+        <id name="id" column="sid"/>
+        <property name="name" column="stud_name"/>
+        <property name="score" column="stud_score"/>
+    </class>
+</hibernate-mapping>

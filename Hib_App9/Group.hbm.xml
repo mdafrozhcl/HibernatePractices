@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="Group" table="GroupTable">
+		<id name="id" column="Id">
+			<generator class="assigned"/>
+		</id>
+		<property name="name" column="name"/>
+		<list name="stories" table="story">
+			<key column="id_fk"></key>
+			<list-index base="0" column="IDX"/>
+			<one-to-many class="Story"/>
+		</list>
+	</class>
+	<class name="Story" table="story">
+		<id name="id" column="id">
+			<generator class="assigned"/>
+		</id>
+		<property name="info" column="info"/>
+	</class>
+</hibernate-mapping>
